@@ -105,3 +105,8 @@ function createTemplateFromGrid(grid, items) {
   return template;
 }
 
+var template = createTemplateFromGrid(
+  [ [ 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0 ],
+    [ 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0 ],
+  ]);
+
